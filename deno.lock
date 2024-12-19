@@ -1,0 +1,148 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@core/unknownutil@3.18.1": "3.18.1",
+    "jsr:@core/unknownutil@4.3": "4.3.0",
+    "jsr:@core/unknownutil@^3.18.0": "3.18.1",
+    "jsr:@core/unknownutil@^4.3.0": "4.3.0",
+    "jsr:@denops/core@7": "7.0.1",
+    "jsr:@denops/std@7.0.0": "7.0.0",
+    "jsr:@denops/std@7.4": "7.4.0",
+    "jsr:@lambdalisue/async@2.1.1": "2.1.1",
+    "jsr:@shougo/ddc-vim@9.1": "9.1.0",
+    "jsr:@shougo/ddu-vim@9.1": "9.1.0",
+    "jsr:@std/assert@1.0.0-rc.2": "1.0.0-rc.2",
+    "jsr:@std/assert@1.0.1": "1.0.1",
+    "jsr:@std/assert@~1.0.2": "1.0.10",
+    "jsr:@std/async@1.0.1": "1.0.1",
+    "jsr:@std/encoding@1.0.1": "1.0.1",
+    "jsr:@std/fs@1": "1.0.7",
+    "jsr:@std/internal@1": "1.0.5",
+    "jsr:@std/internal@^1.0.1": "1.0.5",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "jsr:@std/path@1.0.2": "1.0.2",
+    "jsr:@std/path@^1.0.2": "1.0.2",
+    "jsr:@std/path@^1.0.8": "1.0.8",
+    "jsr:@std/semver@0.224.3": "0.224.3",
+    "jsr:@std/semver@1": "1.0.3",
+    "jsr:@std/testing@0.225.3": "0.225.3",
+    "jsr:@std/ulid@1": "1.0.0"
+  },
+  "jsr": {
+    "@core/unknownutil@3.18.1": {
+      "integrity": "6aaa108b623ff971d062dd345da7ca03b97f61ae3d29c8677bff14fec11f0d76"
+    },
+    "@core/unknownutil@4.3.0": {
+      "integrity": "538a3687ffa81028e91d148818047df219663d0da671d906cecd165581ae55cc"
+    },
+    "@denops/core@7.0.1": {
+      "integrity": "ede39eec60de6d5bf0fbc0337d3e420a9689cc48afea8c71752e6c0fb630bde0"
+    },
+    "@denops/std@7.0.0": {
+      "integrity": "6fda026029958ad9b6e717a989efd824c5ce8efa464252f9982898a8588abb15",
+      "dependencies": [
+        "jsr:@core/unknownutil@^3.18.0",
+        "jsr:@denops/core",
+        "jsr:@std/fs",
+        "jsr:@std/path@^1.0.2",
+        "jsr:@std/semver@0.224.3",
+        "jsr:@std/ulid"
+      ]
+    },
+    "@denops/std@7.4.0": {
+      "integrity": "6d7ae66af0286a440c14c0ba096b4336697bcd69e83e0fce21a41fb3dec10d65",
+      "dependencies": [
+        "jsr:@core/unknownutil@^4.3.0",
+        "jsr:@denops/core",
+        "jsr:@std/semver@1",
+        "jsr:@std/ulid"
+      ]
+    },
+    "@lambdalisue/async@2.1.1": {
+      "integrity": "1fc9bc6f4ed50215cd2f7217842b18cea80f81c25744f88f8c5eb4be5a1c9ab4"
+    },
+    "@shougo/ddc-vim@9.1.0": {
+      "integrity": "3a221b0442a3c2ae164e8ace9e9fc3f2a4f6ea5094c75e21741bfd8a690d7d0e",
+      "dependencies": [
+        "jsr:@core/unknownutil@4.3",
+        "jsr:@denops/std@7.4",
+        "jsr:@std/assert@~1.0.2"
+      ]
+    },
+    "@shougo/ddu-vim@9.1.0": {
+      "integrity": "8a2b36a6490597c6208cc98a42a6e47135027ecad52b3e2b4d28669edcd390f9",
+      "dependencies": [
+        "jsr:@denops/std@7.4"
+      ]
+    },
+    "@std/assert@1.0.0-rc.2": {
+      "integrity": "0484eab1d76b55fca1c3beaff485a274e67dd3b9f065edcbe70030dfc0b964d3",
+      "dependencies": [
+        "jsr:@std/internal@1"
+      ]
+    },
+    "@std/assert@1.0.1": {
+      "integrity": "13590ef8e5854f59e4ad252fd987e83239a1bf1f16cb9c69c1d123ebb807a75b",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.1"
+      ]
+    },
+    "@std/assert@1.0.10": {
+      "integrity": "59b5cbac5bd55459a19045d95cc7c2ff787b4f8527c0dd195078ff6f9481fbb3",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.5"
+      ]
+    },
+    "@std/async@1.0.1": {
+      "integrity": "3c7f6324a8a1b47ca657e5a349b511c9a6c2c0729e9d66b223c9ecaac0753ecb"
+    },
+    "@std/encoding@1.0.1": {
+      "integrity": "5955c6c542ebb4ce6587c3b548dc71e07a6c27614f1976d1d3887b1196cf4e65"
+    },
+    "@std/fs@1.0.7": {
+      "integrity": "95ac7326e0e59089c979706e17bb28db03b5fb41c5a37c9c556788198b0662d6",
+      "dependencies": [
+        "jsr:@std/path@^1.0.8"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    },
+    "@std/path@1.0.2": {
+      "integrity": "a452174603f8c620bd278a380c596437a9eef50c891c64b85812f735245d9ec7"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    },
+    "@std/semver@0.224.3": {
+      "integrity": "7bb34b5ad46de2c0c73de0ca3e30081ef64b4361f66abd57c84ff1011c6a1233"
+    },
+    "@std/semver@1.0.3": {
+      "integrity": "7c139c6076a080eeaa4252c78b95ca5302818d7eafab0470d34cafd9930c13c8"
+    },
+    "@std/testing@0.225.3": {
+      "integrity": "348c24d0479d44ab3dbb4f26170f242e19f24051b45935d4a9e7ca0ab7e37780",
+      "dependencies": [
+        "jsr:@std/assert@1.0.0-rc.2"
+      ]
+    },
+    "@std/ulid@1.0.0": {
+      "integrity": "d41c3d27a907714413649fee864b7cde8d42ee68437d22b79d5de4f81d808780"
+    }
+  },
+  "remote": {
+    "https://deno.land/x/ddc_vim@v6.0.0/_mods.js": "cffd43feb79e0e290ed9e187582f045f65088ca81e5c1f7778d0098fa59e6c96",
+    "https://deno.land/x/ddc_vim@v6.0.0/base/config.ts": "26ce2cc46c1b3d08fe71c7a1e361ab385dfa15d9f48d858591666349c89c2215",
+    "https://deno.land/x/ddc_vim@v6.0.0/base/filter.ts": "bacaf4d2a403a8a8711048a45864d3fa99667f7518ad27c40b6af741dbaf9da5",
+    "https://deno.land/x/ddc_vim@v6.0.0/base/source.ts": "08ca8d6fbc203d16aaaa4c66f1e829453e1d3f2ee7c8a2f46cb163809d76c268",
+    "https://deno.land/x/ddc_vim@v6.0.0/base/ui.ts": "948a5b3faf0594d536926aa17bc1d18ca4f6733f468e68748e5d7ffa0d03b3be",
+    "https://deno.land/x/ddc_vim@v6.0.0/context.ts": "da5b179d1672f65a6b470c43dd9a9c5aa483a4c71ea54437d51d5b0b35829d08",
+    "https://deno.land/x/ddc_vim@v6.0.0/deps.ts": "5171a858900ad0014948cce5b8b03dd9ca55e4dd6f21e4676f0af37d0014c04f",
+    "https://deno.land/x/ddc_vim@v6.0.0/loader.ts": "1ab4f0d868ecd2e92b469c224c3cc0f885e7629a5931d4e6c3f2d1b2f323e10d",
+    "https://deno.land/x/ddc_vim@v6.0.0/types.ts": "6b34abbe0f97c37e0e7d795eba3ade248e0bfa7c9e45dfd286a96fa85e4ed022",
+    "https://deno.land/x/ddc_vim@v6.0.0/utils.ts": "59987d52194ba27ab0888e9817e825e404f67126ef2ab04fc5a8c95ca6b99e67",
+    "https://deno.land/x/denops_core@v6.1.0/denops.ts": "4d0c74a35d6fc81ea8891723d7aac155de75ee9df4a8208820ad33f5b9baf77f",
+    "https://deno.land/x/denops_core@v6.1.0/mod.ts": "8e9df19d34cef4ba9f383de05f9b59cbdb605a05dae1bd34ee2ec4fa7343dc9c",
+    "https://deno.land/x/denops_std@v6.5.1/mod.ts": "7db35ea80fd54afbd8ce909f490c6f6d9536c6c1e048ef3fdf387efcd188157d"
+  }
+}
